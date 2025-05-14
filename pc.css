@@ -1,0 +1,339 @@
+@media (min-width: 769px){
+  html {
+    line-height: 1;
+  }
+  body{
+    margin: 0; */
+  }
+  
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0%;
+  }
+
+  .main{
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  ul{
+    list-style: none;
+  }
+
+  p{
+  }
+
+  h2{
+    font-size: 32px;
+    text-align: center;
+  }
+
+  h3{
+    font-size: 40px;
+    text-align: center;
+  }
+
+  h4{
+    font-size: 20px;
+    padding-top: 11px;
+    margin-bottom: 11px;
+    padding-bottom: 11px;
+    border-bottom: 3px solid #AE0009;
+  }
+
+  .header{
+    background-color: hwb(95 80% 4%);
+    height: 60px;
+  }
+
+  .header__inner{
+    background-color: hwb(0 49% 4%);
+    display: flex;
+    justify-content: space-between;
+    padding: 18px;
+    align-items: center;
+  }
+
+  .header__logo{
+    background-color: lab(93.68% -9.29 19.53);
+    width: 105px;
+  }
+
+  .header__logo img{
+    max-width: 100%;
+    align-items: center;
+  }
+
+  .nav__list{
+    display: flex;
+    justify-content: space-between;
+    gap: 38px;
+  }
+
+  .mv{
+    width: 100%;
+    height: 513px;
+    background-image: url(./img/mainvisual.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .container-A{
+    padding: 67px 15px 67px 15px;
+  }
+  .container-A__title{
+    padding-bottom: 20px;
+  }
+  .text-area__DogA{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 57px;
+    line-height: 42px; 
+  }
+  .text-area__dogA:nth-child(4) {
+    padding-bottom: 0;
+  }
+
+  .Dog1{
+    background-color: #F9F9F9;
+
+  }
+  .container-Dog1{
+    padding: 91px 152px 99px 152px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 986px;
+    gap: 40px;
+    text-align: center;
+  }
+  .Dog1__title{
+    padding-bottom: 76px;
+    text-align: center;
+  }
+  .Dog1__inner{
+    /* background-color: hwb(115 30% 10%); */
+  }
+  .Dog1__list{
+    /* background-color: lab(58.86% 6.1 -49.8); */
+  }
+  .Dog1__item{
+    background-color: lch(84.63% 67.5 98.86);
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 70px;
+    gap: 70px;
+  }
+  .Dog1__list :last-child{
+    /* background-color: rgb(77, 229, 145); */
+    padding-bottom: 0;
+  }
+
+
+  .Dog1__item:nth-child(even){
+    display: flex;
+    flex-direction: row-reverse; /*左右入れ替え*/
+  }
+
+  .Dog__image{
+    width: 450px;
+    max-width: 100%;
+    height: auto
+  }
+  .Dog1__text{
+    /* background-color: rgb(161, 77, 229); */
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  .Dog1__subtitle{
+    /* background-color: #4de5ab; */
+    font-size: 26px;
+    border-bottom: 1px solid; 
+    padding-top: 20px; 
+    margin-bottom: 20px;
+    text-underline-offset: 20px
+  }
+  .Dog1__text-area{
+    /* background-color: hsl(49, 75%, 60%); */
+    padding-bottom: 76px;
+  }
+
+  .Dog2{
+    background-color: hsl(172, 74%, 77%);
+  }
+  .Dog2__inner{
+    padding: 67px 0 67px 0;
+    width: 986px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .Dog2__title{
+    padding-bottom: 67px;
+  }
+  .Dog2__list{
+    display: flex;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+    gap: 51px;
+  }
+  .dog2__item{
+    padding-bottom: 49px;
+  }
+  .text-area__Dog2{
+    padding-top: 32px;
+  }
+  .Dog2__item img{
+    max-width: 100%;
+  }
+
+  .container-cover{
+    background-image: url(./img/dog_bg_01.png);
+    position: relative;
+    max-width: 100%;
+    height: 352px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+  }
+
+  .overray__text{
+    position: absolute;
+    top: 0150px;
+    left: 850px;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    text-align: left;
+    z-index: 1; /* 画像より前面に表示 */
+    padding-bottom: 20px;
+  }
+
+  
+  .Dog3{
+    background-color: hsl(64, 73%, 78%);
+  }
+  .Dog3__inner{
+    background-color: hsl(98, 70%, 71%);
+    padding: 67px 0 67px 0;
+    width: 986px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .Dog3__title{
+    padding-bottom: 67px;
+    font-size: 40px;
+  }
+  .Dog3__list{
+    border-bottom: 1px solid #707070;
+    padding: 20px 0;
+    display: flex;
+    align-self: flex-start;
+  }
+  .Dog3__item{
+    display: flex;
+
+  }
+  .Dog3__date{
+    font-size: 16px;
+    width: 74px;
+    text-align: center;
+    margin-right: 20px;
+  }
+  .Dog3__New{
+    /* width: 84px; */
+    color:#AE0009 ;
+    padding: 5px 20px;
+    text-align: center;
+    border: 1px solid #AE0009; /* 囲み罫線を追加 (太さ: 1px, 線種: 実線, 色: #AE0009) */
+    margin-right: 20px;
+    }
+    .Dog3__text{
+      font-size: 16px;
+    }
+
+    /* .item__text{
+      display: block;
+    } */
+    .button{
+      width: 100%;
+      place-items: center;
+      margin-top: 20px;
+    }
+
+    .cta-btn{
+      display: flex;
+      width: 126px;
+      height: 38px;
+      background-color: #AE0009;
+      justify-content: center;
+      color: #ffffff;
+      padding: 8px 0;
+      margin: 0 auto;
+      place-items: center
+    }
+
+    .footer{
+      background-color: #AFAFAF;
+      padding: 57px 0px 0px 0px;
+    }
+    .footer__inner{
+      width: 986px;
+      margin-right: auto;
+      margin-left: auto;
+      display: flex;
+      /* flex-wrap: wrap; */
+      justify-content: space-between;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .footer__title{
+      font-size: 16px;
+      color: #ffffff;
+      border-bottom: 1px solid #ffffff;
+      padding-bottom: 0.5em;
+      margin-bottom: 19px;
+    }
+    .footer__item{
+      padding: 0 20px;
+      font-size: 17px;
+      color: #ffffff;
+      padding-bottom: 40px;
+    }
+    .footer__list{
+      list-style-type: disc; 
+      color: #ffffff;
+      padding-bottom: 10px;
+      padding-left: 20px;
+    }
+    .footer__list:last-child {
+      padding-bottom: 0;
+    }
+    .footer__text{
+      font-size: 16px;
+    }
+
+
+      .copylight{
+        background-color: #797979;
+        height: 36px;
+        text-align: center;
+        color: #ffffff;
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+
+
+
+
